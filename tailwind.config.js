@@ -9,6 +9,10 @@ const plugin = require('tailwindcss/plugin');
 );
 
 module.exports = {
+  content: [
+    './src/**/*.{js,jsx,ts,tsx}', // Your source files where you use Tailwind CSS
+    './public/index.html', // If you use tailwind classes in HTML files
+  ],
   theme: {
     extend: {
       boxShadow: {},
@@ -48,15 +52,14 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/typography'),
-    require('@tailwindcss/line-clamp'),
     plugin(function ({ addUtilities }) {
       const newUtilities = {
         '.text-heading-1': {
           textTransform: 'uppercase',
-          fontSize: '6rem', // adjusted
+          fontSize: '4rem', // adjusted
           lineHeight: '1',
           '@media (max-width: 768px)': {
-            fontSize: '3rem', // adjusted
+            fontSize: '2rem', // adjusted
           },
         },
         '.text-heading-2': {
@@ -110,10 +113,10 @@ module.exports = {
         },
         '.text-body-copy': {
           fontSize: '1.3125rem', // adjusted
-          lineHeight: '2.5rem',
+          lineHeight: '1.8rem',
           '@media (max-width: 768px)': {
             fontSize: '1.125rem', // adjusted
-            lineHeight: '2.25rem',
+            lineHeight: '1.8rem',
           },
         },
         '.text-cta': {
