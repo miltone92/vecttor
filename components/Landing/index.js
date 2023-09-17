@@ -1,14 +1,7 @@
-import {
-  BodyText,
-  Heading1,
-  Heading2,
-  SubHeading,
-} from '@/components/TextRamp/styled';
-import { Column, ColumnCenter, Row, SvgWrap, Wrap } from './styled';
-// import AssetMedicine from '../../assets/images/undraw/undraw-medicine.svg';
-import AssetMedicine from '@/assets/images/undraw/undraw-medicine.svg';
+import { BodyText, Heading1, Heading2, SubHeading } from '../TextRamp/styled';
+import { ColumnCenter, Row, SvgWrap, Wrap } from './styled';
+import AssetMedicine from '../../assets/images/undraw/undraw-medicine.svg';
 import Svg from 'react-inlinesvg';
-console.log('AssetMedicine', AssetMedicine);
 
 export const Landing = () => (
   <Wrap>
@@ -92,20 +85,21 @@ export const Landing = () => (
       <Heading2>Field Application</Heading2>
       <p>
         VECTTOR has shown remarkable results in treating conditions like Chronic
-        Pain, Diabetes, Renal disease, and Headache Syndromes. It's
-        user-friendly and typically shows responses within 1-3 days. It's been
-        presented internationally, such as at the Al-Hokiel hospital system in
-        Demam, Saudi Arabia, with impressive results.
+        Pain, Diabetes, Renal disease, and Headache Syndromes. It&apos;s
+        user-friendly and typically shows responses within 1-3 days. It&apos;s
+        been presented internationally, such as at the Al-Hokiel hospital system
+        in Demam, Saudi Arabia, with impressive results.
       </p>
     </div>
 
     <div className="info-section">
       <Heading2>Future Prospects</Heading2>
       <BodyText>
-        We're actively developing a comprehensive webpage, including materials
-        intended for Saudi Arabia and a textbook on the device's history,
-        science, and application. Dr. Steve Sacks has several clinic concepts
-        and eagerly awaits collaboration to expand VECTTOR's reach.
+        We&apos;re actively developing a comprehensive webpage, including
+        materials intended for Saudi Arabia and a textbook on the device&apos;s
+        history, science, and application. Dr. Steve Sacks has several clinic
+        concepts and eagerly awaits collaboration to expand VECTTOR&apos;s
+        reach.
       </BodyText>
     </div>
 
