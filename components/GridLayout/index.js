@@ -11,8 +11,10 @@ const GridLayout = ({
   largeColumns,
   horizontalMargin,
   verticalMargin,
+  onGridClick,
 }) => (
   <GridWrapper
+    onClick={onGridClick}
     backgroundColor={backgroundColor}
     columns={columns}
     smallColumns={smallColumns}
@@ -30,7 +32,7 @@ GridLayout.defaultProps = {
   smallColumns: 1,
   mediumColumns: 2,
   largeColumns: 4,
-  gap: 1,
+  gap: 2,
   horizontalMargin: false,
   verticalMargin: false,
 };
