@@ -67,7 +67,7 @@ module.exports = {
           fontSize: '3rem', // adjusted
           lineHeight: '1',
           '@media (max-width: 768px)': {
-            fontSize: '1.875rem', // adjusted
+            fontSize: '1.5rem', // adjusted
           },
         },
         '.text-heading-3': {
