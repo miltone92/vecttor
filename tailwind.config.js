@@ -10,7 +10,7 @@ const plugin = require('tailwindcss/plugin');
 
 module.exports = {
   content: [
-    './src/**/*.{js,jsx,ts,tsx}', // Your source files where you use Tailwind CSS
+    './**/*.{js,jsx,ts,tsx}', // Your source files where you use Tailwind CSS
     './public/index.html', // If you use tailwind classes in HTML files
   ],
   theme: {

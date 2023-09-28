@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
 import { BodyText, Heading1, Heading2, SubHeading } from '../TextRamp/styled';
-import { ColumnCenter, Hero, ListItem, SvgWrap, Wrap } from './styled';
+import { ColumnCenter, ListItem, SvgWrap, Wrap } from './styled';
 import AssetMedicine from '../../assets/images/undraw/undraw-medicine.svg';
 import Svg from 'react-inlinesvg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Hero from '../Hero';
 
 export const Landing = () => {
   useEffect(() => {
@@ -16,7 +17,8 @@ export const Landing = () => {
 
   return (
     <Wrap>
-      <Hero data-aos="fade-up">
+      <Hero />
+      {/* <Hero data-aos="fade-up">
         <ColumnCenter>
           <Heading1>VECTTOR Therapy System</Heading1>
           <SubHeading>
@@ -27,7 +29,7 @@ export const Landing = () => {
         <SvgWrap>
           <Svg src={AssetMedicine.src} />
         </SvgWrap>
-      </Hero>
+      </Hero> */}
 
       <div className="info-section" data-aos="fade-up">
         <Heading2>How Does VECTTOR Work?</Heading2>
