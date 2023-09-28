@@ -1,5 +1,6 @@
 /* eslint-disable max-len */
 import { CubeTransparentIcon } from '@heroicons/react/20/solid';
+import MagazineImage from '../../assets/images/electric-cures-magazine.webp';
 
 export function ContentWithTestimonial() {
   return (
@@ -23,8 +24,7 @@ export function ContentWithTestimonial() {
           </p> */}
           <h1
             id="how-does-it-work"
-            data-aos="fade-up"
-            className="info-section mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+            className=" mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
           >
             How Does VECTTOR Work?
           </h1>
@@ -234,6 +234,44 @@ export function ContentWithTestimonial() {
                 </span>
               </li>
             </ul>
+
+            <h2
+              data-aos="fade-up"
+              className="info-section mt-16 text-2xl font-bold tracking-tight text-gray-900"
+            >
+              Cases
+            </h2>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/X2lkPW8Ikv8?si=JA4oH2avXtzay_N5"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+
+            <h2
+              data-aos="fade-up"
+              className="info-section mt-16 text-2xl font-bold tracking-tight text-gray-900"
+            >
+              Electric Cures
+            </h2>
+            <p
+              data-aos="fade-up"
+              className="info-section mt-6 text-xl leading-8 text-gray-700"
+            >
+              The July 1st 2015 cover of Scientific American “Electric Cures”
+              demonstrates that application of electricity is now recognized
+              globally as a valuable treatment modality . VECTTOR is the most
+              effective form of Electrocuetical treatment in the World at this
+              time. Biolectric Medicine has up to now been only an imprecise
+              modality that offered limited gains. VECTTOR provides a way to
+              focus Electrical current clinically to change Nuerochemistry. The
+              results are unlike anything seen before in the treatment of Pain
+              and Chronic Desease.
+            </p>
+            <img src={MagazineImage.src} className="rounded" alt="case1" />
           </div>
         </div>
       </div>
