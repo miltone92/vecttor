@@ -19,3 +19,7 @@
 body {
   color: black;
 }
+
+* {
+  scroll-behavior: smooth;
+}

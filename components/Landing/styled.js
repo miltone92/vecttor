@@ -4,9 +4,9 @@ export const Wrap = tw.div`flex
   flex-col 
   gap-16  
   mx-auto
-  max-w-[1500px] 
-  p-5
-  md:(p-10 pt-40)
+  // max-w-[1500px] 
+  // p-5
+  // md:(p-10 pt-40)
 `;
 
 export const Row = tw.div`flex flex-row gap-4`;
