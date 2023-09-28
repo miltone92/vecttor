@@ -18,9 +18,9 @@ export function ContentWithTestimonial() {
       </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <p className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">
+          {/* <p className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">
             Deploy faster
-          </p>
+          </p> */}
           <h1
             id="how-does-it-work"
             data-aos="fade-up"
